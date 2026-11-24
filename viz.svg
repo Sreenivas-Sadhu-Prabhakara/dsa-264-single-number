@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="408.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Single Number — XOR cancels the pairs</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Every value appears twice except one: [4,1,2,1,2]. Sorting or maps work — XOR does</text>
+<text x="56.0" y="98.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">it in one pass, no memory.</text>
+<rect x="24.0" y="122.0" width="44.0" height="38.0" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="46.0" y="146.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">4</text>
+<text x="46.0" y="118.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">0</text>
+<rect x="70.0" y="122.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="92.0" y="146.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">1</text>
+<text x="92.0" y="118.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">1</text>
+<rect x="116.0" y="122.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="138.0" y="146.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">2</text>
+<text x="138.0" y="118.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">2</text>
+<rect x="162.0" y="122.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="184.0" y="146.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">1</text>
+<text x="184.0" y="118.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">3</text>
+<rect x="208.0" y="122.0" width="44.0" height="38.0" rx="6" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="230.0" y="146.0" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#1e293b" text-anchor="middle">2</text>
+<text x="230.0" y="118.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">4</text>
+<line x1="24.0" y1="172.0" x2="736.0" y2="172.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="192.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="196.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="197.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">x ^ x = 0 and ^ is commutative: reorder mentally into (1^1) ^ (2^2) ^ 4 — the pairs</text>
+<text x="56.0" y="216.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">vanish.</text>
+<text x="72.0" y="251.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">fold</text>
+<rect x="84.0" y="232.0" width="207.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="187.5" y="251.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">4 ^ 1 ^ 2 ^ 1 ^ 2 → 4</text>
+<line x1="24.0" y1="276.0" x2="736.0" y2="276.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="296.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="300.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="301.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Answer 4. The repeat-and-missing problem (dsa-011) is this trick under load — XOR as</text>
+<text x="56.0" y="320.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">a reversible, order-blind accumulator.</text>
+<text x="72.0" y="355.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">answers</text>
+<rect x="84.0" y="336.0" width="117.0" height="28.0" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="142.5" y="355.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">[2,2,1] → 1</text>
+<rect x="211.0" y="336.0" width="153.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="287.5" y="355.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">[4,1,2,1,2] → 4</text>
+<text x="380.0" y="392.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
